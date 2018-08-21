@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    background-color: gray;
+    
+}
+header {
+    font-family: 'Sonsie One';
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-items: center;
+}
+main  {
+    display: grid;
+    grid-template-columns: repeat(4, 87.5px);
+   grid-gap: 2px;
+}
+img {
+    max-height:200px;
+    max-width: 175px;
+    grid-column: span 2;
+    border-radius: 20px;
+    border-width: 3px;
+    padding: 5px;
+    }
+
+   @media only screen and (min-width: 600px) {
+   
+    main {
+        grid-template-columns:repeat(9, 87.5px);
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    main {
+        grid-template-columns:repeat(11, 87.5px);
+    }
+  }
