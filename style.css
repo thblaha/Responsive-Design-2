@@ -2,6 +2,10 @@ body {
     height: 100vh;
     background-color: gray;
 }
+.container {
+    display: flex;
+    justify-content: center;
+}
 
 header {
     font-family: 'Sonsie One';
